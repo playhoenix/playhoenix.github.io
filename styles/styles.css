@@ -459,12 +459,13 @@ html {
 
     #bio-container {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: repeat(2, 1fr);
         padding: 2.5em;
     }
 
     #img-bio {
         border-radius: 100%;
+        z-index: 100;
     }
 
     #name {
