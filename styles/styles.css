@@ -493,5 +493,6 @@ html {
 
     #social-container a:hover {
         color: var(--red-wine-on);
+        transition: 0.3s;
     }
 }
